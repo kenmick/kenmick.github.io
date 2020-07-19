@@ -1,0 +1,11 @@
+<html>
+<head>
+	<title>Malicious Link</title>
+</head>
+<body>
+<script language="javascript">
+  console.log(window.opener);
+	window.opener.location = 'https://www.example.com';
+</script>
+</body>
+</html>
